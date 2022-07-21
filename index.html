@@ -34,6 +34,7 @@
         <ul>
           <li class="js-btn selected">Methods</li>
           <li class="js-btn">References</li>
+          <li class="js-btn">Grand-Est 2018</li>
           <li class="js-btn">Toulouse</li>
           <li class="js-btn">Dijon</li>
           <li class="js-btn">Orléans</li>
@@ -44,11 +45,11 @@
 
       <article class="doc__content">
         <div class="hero">
-          <h1 class="hero__title">Classification results over 5 cities in France</h1>
+          <h1 class="hero__title">Presentation</h1>
         </div>
         <section class="js-section">
           <h3 class="section__title">Methods</h3>
-          <p>For this work, we developed a multitemporal and multimodal neural network trained on the Grand-Est region with the MultiSenGE dataset. Further explanations will be made after the publication of the research paper associated with this work. The main idea of this presentation is to study the generalization capacity of a network trained on the Grand-Est for other cities in France.</p>
+          <p>For this work, we developed a multitemporal and multimodal neural network trained on the Grand-Est region with the MultiSenGE dataset. Further explanations will be made after the publication of the research paper associated with this work. The main idea of this presentation is to evaluate the generalization capacity of a network trained on the Grand-Est for other cities in France. Also, we are going to produce classification products for the Grand-Est region for different years to evaluate if it is possible to perform change detection between two classifications. The products can be downloaded through this webpage.</p>
           <p>The classification results of the model for 10 land use/land cover classes for several cities in France can be viewed below.</p>
           <img style="text-align:center;" width="20%" src="MultiSenGE.png" />
           <hr />
@@ -62,6 +63,35 @@
           <p><b>Romain Wenger</b>, Anne Puissant, Jonathan Weber, Lhassane Idoumghar, & Germain Forestier. (2022). A new remote sensing benchmark dataset for machine learning applications : MultiSenGE (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.6375466</p>
           <hr />
         </section>
+        <div class="hero">
+          <h1 class="hero__title">Classification for 2018 over the Grand-Est</h1>
+        </div>
+        <section class="js-section">
+          <h3 class="section__title">Grand-Est 2018</h3>
+          <p>To produce the large scale classification, each tile has been classified for Sentinel-1 and Sentinel-2 imagery and reprojected to Lambert-93 using the <i>gdal</i> command below :</p>
+          <div class="tab__container">
+            <pre class="nohighlight code">
+              <code class="tab__pane active mac">$  gdalwarp -ot Byte -of GTiff -co COMPRESS=LZW -t_srs EPSG:2154 [input_file] [output_file]</code>
+            </pre>
+          </div>
+          <p>Then, each tile reproject had been merged. No Data values are mapped with 0 :</p>
+          <div class="tab__container">
+            <pre class="nohighlight code">
+              <code class="tab__pane active mac">$  gdal_merge.py -ot Byte -of GTiff -n 0 -a_nodata 0 -co COMPRESS=LZW -o [output_file] [input_files ...]</code>
+            </pre>
+          </div>
+          <p>Finally, merging results has been cut using the shape of the Grand-Est region : </p>
+          <div class="tab__container">
+            <pre class="nohighlight code">
+              <code class="tab__pane active mac">$  gdalwarp -tr 10.0 10.0 -ot Byte -of GTiff -co COMPRESS=LZW -cutline [Grand_Est.shp] -crop_to_cutline [input_file] [Grand_Est_2018.tif]</code>
+            </pre>
+          </div>
+          <hr />
+          <center><a style="text-align:center;" href="https://enlive.live.unistra.fr/index.php/s/F93rfXUBfhamcnd" class="button--primary">Download</a></center>
+        </section>
+        <div class="hero">
+          <h1 class="hero__title">Classification results over 5 cities in France</h1>
+        </div>
         <section class="js-section">
           <h3 class="section__title">Toulouse - T31TCJ</h3>
           <p>Toulouse is a city in the southwest of France with more than 400,000 inhabitants and an area of 118 km2.</p>
