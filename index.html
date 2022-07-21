@@ -74,7 +74,7 @@
               <code class="tab__pane active mac">$  gdalwarp -ot Byte -of GTiff -co COMPRESS=LZW -t_srs EPSG:2154 [input_file] [output_file]</code>
             </pre>
           </div>
-          <p>Then, each tile reproject had been merged. No Data values are mapped with 0 :</p>
+          <p>Then, each tile reprojected had been merged. No Data values are mapped with 0 :</p>
           <div class="tab__container">
             <pre class="nohighlight code">
               <code class="tab__pane active mac">$  gdal_merge.py -ot Byte -of GTiff -n 0 -a_nodata 0 -co COMPRESS=LZW -o [output_file] [input_files ...]</code>
