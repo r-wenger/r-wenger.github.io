@@ -70,7 +70,7 @@
         </div>
         <section class="js-section">
           <h3 class="section__title">Grand-Est 2018</h3>
-          <p>To produce the large scale classification, each tile has been classified for Sentinel-1 and Sentinel-2 imagery and reprojected to Lambert-93 using the <i>gdal</i> command below :</p>
+          <p>To produce the large scale classification, each tile has been classified for Sentinel-1 and Sentinel-2 imagery and reprojected to Lambert-93 using the <i>gdal</i> command below:</p>
           <div class="tab__container">
             <pre class="nohighlight code">
               <code class="tab__pane active mac">$  gdalwarp -ot Byte -of GTiff -co COMPRESS=LZW -t_srs EPSG:2154 [input_file] [output_file]</code>
@@ -90,13 +90,136 @@
           </div>
           <hr />
           <center><a style="text-align:center;" href="https://romainwenger.fr/wp-content/themes/pulse/images/Grand_Est_2018.tif'" class="button--primary">Download</a></center>
+          <hr />
+          <p>Here are the dates for each Sentinel-2 images selected per tile to perform 2018 classification:</p>
+          <table>
+              <tbody>
+                  <tr>
+                      <td>T31TFN</td>
+                      <td>27 July 2018</td>
+                      <td>16 August 2018</td>
+                      <td>25 September 2018</td>
+                      <td>20 October 2018</td>
+                  </tr>
+                  <tr>
+                      <td>T31UEP</td>
+                      <td>15 July 2018</td>
+                      <td>18 August 2018</td>
+                      <td>28 September 2018</td>
+                      <td>13 October 2018</td>
+                  </tr>
+                  <tr>
+                      <td>T31UEQ</td>
+                      <td>25 July 2018</td>
+                      <td>04 August 2018</td>
+                      <td>8 September 2018</td>
+                      <td>17 November 2018</td>
+                  </tr>
+                  <tr>
+                      <td>T31UER</td>
+                      <td>25 July 2018</td>
+                      <td>04 August 2018</td>
+                      <td>18 September 2018</td>
+                      <td>17 November 2018</td>
+                  </tr>
+                  <tr>
+                      <td>T31UFP</td>
+                      <td>27 July 2018</td>
+                      <td>16 August 2018</td>
+                      <td>20 September 2018</td>
+                      <td>15 October 2018</td>
+                  </tr>
+                  <tr>
+                      <td>T31UFQ</td>
+                      <td>27 July 2018</td>
+                      <td>16 August 2018</td>
+                      <td>25 September 2018</td>
+                      <td>20 October 2018</td>
+                  </tr>
+                  <tr>
+                      <td>T31UFP</td>
+                      <td>27 July 2018</td>
+                      <td>16 August 2018</td>
+                      <td>20 September 2018</td>
+                      <td>15 October 2018</td>
+                  </tr>
+                  <tr>
+                      <td>T31UFR</td>
+                      <td>2 July 2018</td>
+                      <td>16 August 2018</td>
+                      <td>10 October 2018</td>
+                      <td>4 November 2018</td>
+                  </tr>
+                  <tr>
+                      <td>T31UGP</td>
+                      <td>2 July 2018</td>
+                      <td>6 August 2018</td>
+                      <td>20 September 2018</td>
+                      <td>15 October 2018</td>
+                  </tr>
+                  <tr>
+                      <td>T31UGQ</td>
+                      <td>27 July 2018</td>
+                      <td>16 August 2018</td>
+                      <td>25 September 2018</td>
+                      <td>20 October 2018</td>
+                  </tr>
+                  <tr>
+                      <td>T32TLT</td>
+                      <td>29 July 2018</td>
+                      <td>28 August 2018</td>
+                      <td>27 September 2018</td>
+                      <td>22 October 2018</td>
+                  </tr>
+                  <tr>
+                      <td>T32ULU</td>
+                      <td>9 July 2018</td>
+                      <td>3 August 2018</td>
+                      <td>27 September 2018</td>
+                      <td>12 October 2018</td>
+                  </tr>
+                  <tr>
+                      <td>T32ULV</td>
+                      <td>24 July 2018</td>
+                      <td>18 August 2018</td>
+                      <td>27 September 2018</td>
+                      <td>22 October 2018</td>
+                  </tr>
+                  <tr>
+                      <td>T32UMU</td>
+                      <td>9 July 2018</td>
+                      <td>3 August 2018</td>
+                      <td>17 September 2018</td>
+                      <td>17 October 2018</td>
+                  </tr>
+                  <tr>
+                      <td>T32UMV</td>
+                      <td>9 July 2018</td>
+                      <td>3 August 2018</td>
+                      <td>27 September 2018</td>
+                      <td>11 November 2018</td>
+                  </tr>
+              </tbody>
+          </table>
         </section>
         <div class="hero">
           <h1 class="hero__title">Classification results over 5 cities in France</h1>
         </div>
         <section class="js-section">
-          <h3 class="section__title">Toulouse - T31TCJ</h3>
+          <h3 class="section__title">Toulouse</h3>
           <p>Toulouse is a city in the southwest of France with more than 400,000 inhabitants and an area of 118 km2.</p>
+          <p>Here are the Sentinel-2 dates used to perfom the classification:</p>
+          <table>
+              <tbody>
+                  <tr>
+                      <td>T31TCJ</td>
+                      <td>9 July 2020</td>
+                      <td>8 August 2020</td>
+                      <td>17 September 2020</td>
+                      <td>17 October 2020</td>
+                  </tr>
+              </tbody>
+          </table>
           <div class="code__block code__block--notabs">
             <pre class="code code--block">
               <p style="text-align:center;">
@@ -106,8 +229,20 @@
           </div>
         </section>
         <section class="js-section">
-          <h3 class="section__title">Dijon - T31TFN</h3>
+          <h3 class="section__title">Dijon</h3>
           <p>Dijon is a French city, prefecture of the Côte-d'Or department and capital of the Bourgogne-Franche-Comté region. It has more than 160,000 inhabitants and covers 40 km2.</p>
+          <p>Here are the Sentinel-2 dates used to perfom the classification:</p>
+          <table>
+              <tbody>
+                  <tr>
+                      <td>T31TFN</td>
+                      <td>31 July 2020</td>
+                      <td>5 August 2020</td>
+                      <td>14 September 2020</td>
+                      <td>28 November 2020</td>
+                  </tr>
+              </tbody>
+          </table>
           <div class="code__block code__block--notabs">
             <pre class="code code--block">
               <p style="text-align:center;">
@@ -117,8 +252,20 @@
           </div>
         </section>
         <section class="js-section">
-          <h3 class="section__title">Orléans - T31UDP</h3>
+          <h3 class="section__title">Orléans</h3>
           <p>Orléans is a city in the Center-Northwest of France on the banks of the Loire, prefecture of the Loiret department and capital of the Centre-Val de Loire region. It has more than 116,000 inhabitants and covers 27 km2.</p>
+          <p>Here are the Sentinel-2 dates used to perfom the classification:</p>
+          <table>
+              <tbody>
+                  <tr>
+                      <td>T31UDP</td>
+                      <td>9 July 2020</td>
+                      <td>29 July 2020</td>
+                      <td>17 September 2020</td>
+                      <td>21 November 2020</td>
+                  </tr>
+              </tbody>
+          </table>
           <div class="code__block code__block--notabs">
             <pre class="code code--block">
               <p style="text-align:center;">
@@ -128,8 +275,20 @@
           </div>
         </section>
         <section class="js-section">
-          <h3 class="section__title">Lille - T31UES</h3>
+          <h3 class="section__title">Lille</h3>
           <p>Lille is a city in the north of France, prefecture of the Nord department and capital of the Hauts-de-France region. It has more than 235,000 inhabitants and covers 34 km2.</p>
+          <p>Here are the Sentinel-2 dates used to perfom the classification:</p>
+          <table>
+              <tbody>
+                  <tr>
+                      <td>T31UES</td>
+                      <td>24 June 2020</td>
+                      <td>13 August 2020</td>
+                      <td>17 September 2020</td>
+                      <td>6 November 2020</td>
+                  </tr>
+              </tbody>
+          </table>
           <div class="code__block code__block--notabs">
             <pre class="code code--block">
               <p style="text-align:center;">
@@ -139,8 +298,20 @@
           </div>
         </section>
         <section class="js-section">
-          <h3 class="section__title">Rennes - T30UWU</h3>
+          <h3 class="section__title">Rennes</h3>
           <p>Rennes is a city in the North-West of France, capital of the Ille-et-Vilaine department and of the Brittany region. It has more than 220,000 inhabitants and covers 50 km2.</p>
+          <p>Here are the Sentinel-2 dates used to perfom the classification:</p>
+          <table>
+              <tbody>
+                  <tr>
+                      <td>T30UWU</td>
+                      <td>30 July 2020</td>
+                      <td>9 August 2020</td>
+                      <td>13 September 2020</td>
+                      <td>17 December 2020</td>
+                  </tr>
+              </tbody>
+          </table>
           <div class="code__block code__block--notabs">
             <pre class="code code--block">
               <p style="text-align:center;">
