@@ -1,38 +1,45 @@
 {
   "education": [
    {
-      "Start": "2014",
+      "Start": "2019",
+      "End": "Present",
+      "Title": "PhD in Remote Sensing and Artificial Intelligence",
+      "School": "Faculty of Geography, Strasbourg",
+      "Comment": ""
+    },
+    {
+      "Start": "2017",
+      "End": "2019",
+      "Title": "Master degree in Geomatics, speciality in remote sensing, with mention",
+      "School": "Faculty of Geography, Strasbourg",
+      "Comment": ""
+    },
+    {
+      "Start": "2016",
+      "End": "2017",
+      "Title": "Second year of a degree in geography",
+      "School": "Faculty of Geography, Strasbourg",
+      "Comment": ""
+    },
+    {
+      "Start": "2015",
       "End": "2016",
-      "Title": "Basiskwalificatie Onderwijs (BKO)",
-      "School": "Open University of the Netherlands",
+      "Title": "Professional Bachelor degree in computer programming, with mention",
+      "School": "IUT Robert Schuman, Strasbourg",
       "Comment": ""
     },
     {
-      "Start": "2006",
+      "Start": "2013",
+      "End": "2015",
+      "Title": "DUT in computer programming, with mention",
+      "School": "IUT Robert Schuman, Strasbourg",
+      "Comment": ""
+    },
+    {
+      "Start": "2009",
       "End": "2012",
-      "Title": "PhD Educational Sciences",
-      "School": "Leiden University",
-      "Comment": ""
-    },
-    {
-      "Start": "2000",
-      "End": "2006",
-      "Title": "MSc in Psychology",
-      "School": "Leiden University",
-      "Comment": "Specialisation 1: Research Methods & Statistics; Specialisation 2: Social & Organizational Psychology"
-    },
-	    {
-      "Start": "2000",
-      "End": "1998",
-      "Title": "Pre-university education (VWO)",
-      "School": "College ’t Loo, Voorburg",
-      "Comment": ""
-    },
-		    {
-      "Start": "1998",
-      "End": "1992",
-      "Title": "Senior general secondary education (HAVO)",
-      "School": "College ’t Loo, Voorburg",
+      "Title": "Scientist Baccalaureat",
+      "School": "Gymnase Jean Sturm, Strasbourg",
       "Comment": ""
     }
   ]
