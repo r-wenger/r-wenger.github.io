@@ -1,0 +1,49 @@
+{
+  "grants": [
+    {
+      "Start": "2019",
+      "End": "present",
+      "Title": "Serious Game - Junior Scientist",
+      "Funder": "Kwaliteitsafspraken Open University",
+      "Role": "Principal investigator",
+      "Value": 152000,
+      "url": "https://www.ou.nl/en/-/serious-game-over-de-statistische-aspecten-van-onderzoek?utm_source=twitter&utm_medium=social&utm_campaign=psychologie"
+    },
+    {
+      "Start": "2020",
+      "End": "present",
+      "Title": "Chatting with the past (Chatten met het verleden)",
+      "Funder": "Leiden Education Innovation (Onderwijsinnovatiesubsidie gemeente Leiden)",
+      "Role": "Co-investigator",
+      "Value": 20000,
+      "url": "https://www.ou.nl/en/-/chatbot-wekt-historisch-figuur-tot-leven"
+    },
+    {
+      "Start": 2021,
+      "End": "present",
+      "Title": "Innovating digital assessment: Effective use of multimedia",
+      "Funder": "Open University: Call for Interdisciplinary Research",
+      "Role": "Copromotor",
+      "Value": 250000,
+      "url": "https://www.ou.nl/en/innovating-for-resilience-projects-innovating-digital-assessment"
+    },
+    {
+      "Start": 2021,
+      "End": "present",
+      "Title": "Gamebrics: Serious gaming voor actief online leren met geïntegreerde analytical rubrics voor formatieve e-toetsing",
+      "Funder": "SURF: Activiteitenplan Pijler Online onderwijs",
+      "Role": "Co-investigator",
+      "Value": 199150,
+      "url": "https://www.ou.nl/en/-/gamebrics-tijdens-de-gameplay-feedback-krijgen-over-je-vaardigheden"
+    },
+    {
+      "Start": 2022,
+      "End": "present",
+      "Title": "Designer wizard for Serious Games for computational thinking in higher education",
+      "Funder": "Open University: Call for Interdisciplinary Research",
+      "Role": "Copromotor",
+      "Value": 250000,
+      "url": ""
+    }
+  ]
+}

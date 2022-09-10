@@ -1,0 +1,53 @@
+{
+  "experience": [
+   {
+      "Start": "2019",
+      "End": "present",
+      "Title": "Website Manager",
+      "Org": "Laboratoire Image Ville Environnement - UMR7362",
+      "Comment": "In charge of the LIVE (Laboratoire Image Ville Environnement - UMR7362) website for PhD students. Participation to the meetings for the total redesign of the laboratory website."
+    },
+    {
+      "Start": "2022",
+      "End": "2022",
+      "Title": "Temporary teacher",
+      "Org": "Faculty of Geography, Strasbourg",
+      "Comment": "8 hours of AI courses to the masters 2 OTG, GDT and EOST engineers, 8 hours of programming courses applied to the treatment of satellite images and geoprocessing to the masters 1 OTG."
+    },
+    {
+      "Start": "2021",
+      "End": "2021",
+      "Title": "Temporary teacher",
+      "Org": "Faculty of Geography, Strasbourg",
+      "Comment": "18 hours of AI courses to the masters 2 OTG, GDT and EOST engineers, 4 hours of programming courses applied to the treatment of satellite images and geoprocessing to the masters 1 OTG."
+    },
+    {
+      "Start": "2019",
+      "End": "2019",
+      "Title": "MS Internship",
+      "Org": "Laboratoire Image Ville Environnement - UMR7362",
+      "Comment": "Providing techniques and methods to improve a processing chain to classify urban footprint using remote sensing images."
+    },
+    {
+      "Start": "2018",
+      "End": "2018",
+      "Title": "Short research internship",
+      "Org": "Laboratoire Image Ville Environnement - UMR7362",
+      "Comment": "Developing R script to download automatically MODIS images and extract pixels in arctic Rivers for DOC quantification due to melting permafrost."
+    },
+    {
+      "Start": "2015",
+      "End": "2016",
+      "Title": "C# .NET developer",
+      "Org": "Pearl Diffusion, Sélestat",
+      "Comment": "Developing modules for an existing .NET application."
+    },
+    {
+      "Start": "2015",
+      "End": "2015",
+      "Title": "Back and front end developer",
+      "Org": "Accès Savoirs, Quebec, Canada",
+      "Comment": "Internship in Quebec for my degree in computer sciences. Developing an application in C# .NET for an association."
+    }
+  ]
+}
