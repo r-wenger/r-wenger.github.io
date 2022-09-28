@@ -1,9 +1,14 @@
 {
-  "grants": [
+  "projects": [
     {
       "Title": "MultiSenGE classifications",
       "Source": "PhD Thesis",
       "url": "/multisenge/index.html"
+    },
+    {
+      "Title": "MultiSenGE Tools",
+      "Source": "PhD Thesis",
+      "url": "https://github.com/r-wenger/MultiSenGE-Tools"
     }
   ]
 }
