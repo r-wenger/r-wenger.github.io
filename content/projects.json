@@ -6,6 +6,11 @@
       "url": "multisenge/index.html"
     },
     {
+      "Title": "Visualize MultiSenGE",
+      "Source": "PhD Thesis",
+      "url": "visu-multisenge/index.html"
+    },
+    {
       "Title": "MultiSenGE Tools",
       "Source": "PhD Thesis",
       "url": "https://github.com/r-wenger/MultiSenGE-Tools"
