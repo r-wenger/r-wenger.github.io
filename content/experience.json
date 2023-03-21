@@ -1,8 +1,15 @@
 {
   "experience": [
     {
-      "Start": "2019",
+      "Start": "2023",
       "End": "present",
+      "Title": "Post-doctoral researcher",
+      "Org": "Laboratoire Image Ville Environnement - UMR7362",
+      "Comment": "Post-Doc position, working on deep learning for urban fabric mapping."
+    },
+    {
+      "Start": "2019",
+      "End": "2023",
       "Title": "PhD Student",
       "Org": "Laboratoire Image Ville Environnement - UMR7362",
       "Comment": "PhD in remote sensing and artificial intelligence for urban fabric mapping and urban dynamics extraction."
